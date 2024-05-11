@@ -4,7 +4,16 @@
 
 :root {
     --primary-color: #FFB900;
+    --white-color: #FFF;
+    --head-color: #171100;
+    --text-color: #5F5B53;
+    --background-color: #FFFCF4;
     --font-heading: "Sen", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
 }
 
 html {
@@ -40,8 +49,8 @@ a {
     font-weight: 600;
     font-size: 1.6rem;
     text-align: center;
-    color: #FFF;
-    background: #171100;
+    color: var(--white-color);
+    background: var(--head-color);
     border-radius: 999px;
 }
 
@@ -54,7 +63,7 @@ a {
     font-family: var(--font-heading);
     font-weight: 700;
     letter-spacing: -0.02em;
-    color: #171100;
+    color: var(--head-color);
 }
 
 .heading.lv1 {
@@ -88,7 +97,7 @@ a {
 
 /* =============== Header =============== */
 .header {
-    background: #FFFCF4;
+    background: var(--background-color);
 }
 
 .header.fixed {
@@ -116,12 +125,12 @@ a {
     position: relative;
     padding: 8px 21px;
     font-size: 1.6rem;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .nav a:hover,
 .nav li.active a {
-    color: #171100;
+    color: var(--head-color);
     text-shadow: 1px 0 0 currentColor;
 }
 
@@ -133,7 +142,7 @@ a {
     bottom: 6px;
     width: 12px;
     height: 2px;
-    background: #171100;
+    background: var(--head-color);
     border-radius: 1px;
 }
 
@@ -148,7 +157,7 @@ a {
 /* =============== Hero =============== */
 .hero {
     padding: 56px 0 65px;
-    background: #FFFCF4;
+    background: var(--background-color);
 }
 
 .hero .body {
@@ -176,7 +185,7 @@ a {
     bottom: 48px;
     width: 270px;
     padding: 24px;
-    background: #FFF;
+    background: var(--white-color);
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
 }
@@ -215,14 +224,14 @@ a {
 .hero-summary .info .label {
     font-size: 1.4rem;
     line-height: 1.86;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .hero-summary .info .title {
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #171100;
+    color: var(--head-color);
 }
 
 /* Hero right */
@@ -235,7 +244,7 @@ a {
     margin-top: 22px;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .hero .cta-group {
@@ -266,13 +275,13 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #ffffff;
+    background: var(--white-color);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
 }
 
 .hero .watch-video span {
     margin-left: 14px;
-    color: #171100;
+    color: var(--head-color);
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.67;
@@ -289,7 +298,7 @@ a {
     font-weight: 700;
     font-size: 4.4rem;
     line-height: 1.23;
-    color: #171100;
+    color: var(--head-color);
 }
 
 /* =============== Popular Coures =============== */
@@ -303,7 +312,7 @@ a {
     width: 458px;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .popular-top {
@@ -330,7 +339,7 @@ a {
 }
 
 .popular-top .control-btn:hover {
-    color: #fff;
+    color: var(--white-color);
     background: var(--primary-color);
     cursor: pointer;
 }
@@ -345,7 +354,7 @@ a {
     width: 33.33%;
     border-radius: 12px;
     border: 1px solid #E2DFDA;
-    background: #FFF;
+    background: var(--white-color);
 }
 
 .popular .course-item:hover {
@@ -377,7 +386,7 @@ a {
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #171100;
+    color: var(--head-color);
 }
 
 .popular .rating .value {
@@ -392,7 +401,7 @@ a {
     margin-top: 6px;
     font-size: 1.4rem;
     line-height: 1.86;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .popular .course-item .foot {
@@ -403,7 +412,7 @@ a {
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #171100;
+    color: var(--head-color);
 }
 
 .popular .course-item .book-btn {
@@ -411,7 +420,7 @@ a {
 }
 
 .popular .course-item .book-btn:hover {
-    color: #fff;
+    color: var(--white-color);
     background: var(--primary-color);
 }
 
@@ -487,7 +496,7 @@ a {
     font-size: 2.6rem;
     font-style: italic;
     line-height: 1.54;
-    color: #FFF;
+    color: var(--white-color);
 }
 
 /* =============== Features 1 =============== */
@@ -530,13 +539,13 @@ a {
     margin-top: 16px;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .features .cta-btn {
     margin-top: 32px;
     min-width: 137px;
-    color: #fff;
+    color: var(--white-color);
     background: var(--primary-color);
     border-radius: 26px;
 }
@@ -561,7 +570,7 @@ a {
 .blog {
     margin-top: 135px;
     padding: 96px 0;
-    background: #FFFCF4;
+    background: var(--background-color);
 }
 
 .blog .blog-top {
@@ -585,7 +594,7 @@ a {
 
 .blog .item {
     width: calc(33.33% - ((30px + 30px) / 2));
-    background: #FFF;
+    background: var(--white-color);
     border-radius: 16px;
     flex-shrink: 0;
 }
@@ -612,7 +621,7 @@ a {
     padding-bottom: 12px;
     font-size: 1.4rem;
     line-height: 1.86;
-    color: #5F5B53;
+    color: var(--text-color);
 }
 
 .blog .item .date::before {
@@ -643,7 +652,7 @@ a {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: #171100;
+    color: var(--head-color);
 }
 
 .blog .item .btn {
@@ -665,7 +674,7 @@ a {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #5F5B53;
+    background: var(--text-color);
     cursor: pointer;
 }
 
@@ -710,11 +719,6 @@ a {
     margin-top: 18px;
 }
 
-/* .footer .socials .icon:hover {
-    display: block;
-    color: #b83939;
-} */
-
 .footer .title {
     display: inline-block;
     padding: 0 48px 14px 0;
@@ -722,7 +726,7 @@ a {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: #fff;
+    color: var(--white-color);
 }
 
 .footer .list {
@@ -743,7 +747,13 @@ a {
 
 .footer .list strong {
     font-weight: 600;
-    color: #FFF;
+    color: var(--white-color);
+}
+
+.footer .column:nth-child(2) .list a:hover,
+.footer .column:nth-child(3) .list a:hover,
+.footer .column:nth-child(4) .list a:hover {
+    color: #ebebeb;
 }
 
 .footer .copyright {
