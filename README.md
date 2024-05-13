@@ -1,4 +1,4 @@
-## Project 02 - Lesson.
+## Project 02 - Lesson. (Landing Page Basic)
 
 - Language: HTML/CSS
 - Javascript: (Update coming soon...)
