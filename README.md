@@ -9,7 +9,7 @@ Experience the live demo [here](https://hgiang15.github.io/HTML-CSS_LandingPage_
 ## ✨ Features
 
 - **Responsive Design**: Update Coming Soon...
-- **JavaScript Functionality**: Update Coming Soon...
+- **JavaScript Functionality**: Basic and convenient
 - **Clean Design**: Simple and elegant aesthetics.
 - **Easy Customization**: Modify and expand with ease.
 

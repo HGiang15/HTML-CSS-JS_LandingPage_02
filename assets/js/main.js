@@ -1,3 +1,13 @@
+// Nav
+const links = document.querySelectorAll(".nav a");
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    links.forEach((link) => link.parentElement.classList.remove("active"));
+    link.parentElement.classList.add("active");
+  });
+});
+
 /* Features */
 const dots = document.querySelectorAll(".feedback .dots .dot");
 const feedbacks = document.querySelectorAll(".feedback .feedback-item");
