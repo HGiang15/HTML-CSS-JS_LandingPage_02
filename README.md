@@ -4,7 +4,7 @@ Welcome to **Project 02 - Lesson**, a beautifully crafted landing page built usi
 
 ## 🚀 Live Demo
 
-Experience the live demo [here](https://hgiang15.github.io/HTML-CSS_LandingPage_02/).
+Experience the live demo [here](https://hgiang15.github.io/HTML-CSS-JS_LandingPage_02/).
 
 ## ✨ Features
 
