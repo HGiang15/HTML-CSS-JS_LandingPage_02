@@ -14,7 +14,7 @@
 }
 
 /* Tablet & Mobile */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.98px) {
 
     /* -- Header -- */
     .navbar {
@@ -81,17 +81,161 @@
     .separate {
         border-top: 1.5px solid #ebebeb;
     }
+
+    /* Hero */
+    .hero .body {
+        flex-direction: column-reverse;
+    }
+
+    .heading.lv1 {
+        font-size: 4.5rem;
+    }
+
+    .hero .content-block {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .hero .desc {
+        font-size: 1.4rem;
+    }
+
+    .hero .cta-group {
+        justify-content: center;
+    }
+
+    .hero .media-block {
+        margin-top: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-summary {
+        right: 120px;
+    }
+
+    /* Popular */
+    .popular {
+        padding: 35px 0 0;
+    }
+
+    .popular-top {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .popular-top .desc {
+        font-size: 1.4rem;
+    }
+
+    .popular-top .controls {
+        margin-top: 20px;
+    }
+
+    .popular .course-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Feedback */
+    .open-quotes {
+        width: 20px;
+    }
+
+    .feedback-item blockquote {
+        font-size: 1.6rem;
+    }
+
+    /* Features */
+    .features {
+        margin-top: 80px;
+    }
+
+    .features .body {
+        flex-direction: column-reverse;
+    }
+
+    .features .content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .features .desc {
+        font-size: 1.4rem;
+    }
+
+    .features .cta-btn {
+        margin-top: 16px;
+    }
+
+    .features .images {
+        margin-top: 60px;
+        justify-content: center;
+        gap: 0 15px;
+    }
+
+    .features-2nd .body {
+        flex-direction: column-reverse;
+    }
+
+    /* Blog */
+    .blog {
+        margin-top: 80px;
+        padding: 60px 0;
+    }
+
+    .blog .blog-list {
+        gap: 15px;
+    }
+
+    .blog .item {
+        width: 49%;
+    }
+
+    .blog .item .info {
+        padding: 20px;
+    }
+
+    .blog .item .title a {
+        font-size: 1.4rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 60px 0 0;
+    }
+
+    .footer .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .footer .row .column:first-child,
+    .footer .row .column {
+        width: 100%;
+    }
+
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .show-on-mobile {
         display: none;
     }
 }
 
 /* Mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
+
+    /* Common */
+    .hide-on-mobile {
+        display: none;
+    }
 
     /* -- Header -- */
     .menu-drawer {
@@ -101,5 +245,103 @@
 
     .header .actions {
         display: none;
+    }
+
+    /* Hero */
+    .heading.lv1 {
+        font-size: 2.7rem;
+    }
+
+    .hero .cta-group {
+        flex-direction: column;
+    }
+
+    .hero .hero-cta {
+        min-width: 150px;
+        line-height: 50px;
+    }
+
+    .hero .watch-video {
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .hero .desc.stats {
+        margin-top: 20px;
+    }
+
+    .hero .media-block .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-summary {
+        right: 10px;
+    }
+
+    /* Popular */
+    .popular {
+        margin-top: 0;
+    }
+
+    .heading.lv2 {
+        font-size: 2rem;
+    }
+
+    .popular-top .desc {
+        width: 100%;
+    }
+
+    /* Feedback */
+    .feedback {
+        padding: 80px 20px 80px;
+    }
+
+    .feedback .feedback-item {
+        flex-direction: column-reverse;
+    }
+
+    .feedback-item .info {
+        margin-top: 30px;
+    }
+
+    .feedback-item .content {
+        width: 100%;
+    }
+
+    .feedback-item blockquote {
+        margin: 10px 0 0;
+    }
+
+    /* Feature 1 */
+    .features .images img {
+        width: 100%;
+    }
+
+    .features-2nd {
+        margin: 0;
+    }
+
+    /* Blog */
+    .blog {
+        margin-top: 40px;
+    }
+
+    .blog .blog-top .desc {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .blog .item {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 60px 20px 0;
+    }
+
+    .footer .row {
+        grid-template-columns: 1fr;
     }
 }

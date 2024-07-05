@@ -295,7 +295,7 @@ a {
     padding: 0 8px 0 28px;
     padding-right: 8px;
     font-family: var(--font-heading);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 4.4rem;
     line-height: 1.23;
     color: var(--head-color);
@@ -345,13 +345,13 @@ a {
 }
 
 .popular .course-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 55px;
     gap: 30px;
 }
 
 .popular .course-item {
-    width: 33.33%;
     border-radius: 12px;
     border: 1px solid #E2DFDA;
     background: var(--white-color);
@@ -363,6 +363,8 @@ a {
 }
 
 .popular .course-item .thumb {
+    display: block;
+    width: 33.33%;
     width: calc(100% + 2px);
     height: 278px;
     margin: -1px;
@@ -556,6 +558,10 @@ a {
     margin-top: 70px;
 }
 
+.features-2nd .body {
+    flex-direction: row-reverse;
+}
+
 .features-2nd .content {
     /* 570 / 1170 * 100 */
     width: 49%;
@@ -691,12 +697,13 @@ a {
 
 .footer .row {
     display: flex;
+    border-bottom: 1px solid #59554B;
+
 }
 
 .footer .row .column {
     width: 21.6%;
     padding-bottom: 38px;
-    border-bottom: 1px solid #59554B;
 }
 
 .footer .row .column:first-child {
