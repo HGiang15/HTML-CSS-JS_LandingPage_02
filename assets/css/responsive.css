@@ -16,6 +16,14 @@
 /* Tablet & Mobile */
 @media screen and (max-width: 991.98px) {
 
+    /* Common */
+    .hero .desc,
+    .popular-top .desc,
+    .features .desc,
+    .blog .blog-top .desc {
+        font-size: 1.4rem;
+    }
+
     /* -- Header -- */
     .navbar {
         position: relative;
@@ -97,10 +105,6 @@
         padding: 0;
     }
 
-    .hero .desc {
-        font-size: 1.4rem;
-    }
-
     .hero .cta-group {
         justify-content: center;
     }
@@ -126,10 +130,6 @@
         justify-content: center;
         text-align: center;
         flex-direction: column;
-    }
-
-    .popular-top .desc {
-        font-size: 1.4rem;
     }
 
     .popular-top .controls {
@@ -162,10 +162,6 @@
         width: 100%;
         align-items: center;
         text-align: center;
-    }
-
-    .features .desc {
-        font-size: 1.4rem;
     }
 
     .features .cta-btn {
@@ -328,7 +324,6 @@
     }
 
     .blog .blog-top .desc {
-        font-size: 1.4rem;
         width: 100%;
     }
 
