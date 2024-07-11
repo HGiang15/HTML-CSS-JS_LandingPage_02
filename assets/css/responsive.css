@@ -244,6 +244,15 @@
         display: none;
     }
 
+    .body {
+        justify-content: space-between;
+    }
+
+    .bell {
+        display: block;
+        width: 20px;
+    }
+
     /* Hero */
     .heading.lv1 {
         font-size: 2.7rem;
