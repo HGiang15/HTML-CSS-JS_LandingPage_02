@@ -75,6 +75,7 @@
 
     .menu-wrap {
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 
@@ -237,10 +238,6 @@
     .menu-drawer {
         inset: 0 25% 0 0;
         padding: 40px;
-    }
-
-    .menu-logo {
-        margin-top: 6px;
     }
 
     .header .actions {
