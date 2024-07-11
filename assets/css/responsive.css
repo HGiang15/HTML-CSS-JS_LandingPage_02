@@ -73,6 +73,15 @@
         transition: 0.6s ease;
     }
 
+    .menu-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-drawer .x-mark svg {
+        width: 20px;
+    }
+
     .menu-drawer ul {
         margin-top: 32px;
     }
@@ -228,6 +237,10 @@
     .menu-drawer {
         inset: 0 25% 0 0;
         padding: 40px;
+    }
+
+    .menu-logo {
+        margin-top: 6px;
     }
 
     .header .actions {
